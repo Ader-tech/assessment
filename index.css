@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0714;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.container h2 {
+    margin-top: 0;
+}
+
+.container .task {
+    display: flex;
+    gap: 10px;
+    margin: 60px auto;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px 20px;
+    border: 1px solid #9e78cf;
+    border-radius: 10px;
+    color: #9e78cf;
+    background-color: inherit;
+}
+
+#addTaskBtn {
+    width: 40px;
+    padding: 8px;
+    border: none;
+    background-color: #9E78CF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+#addTaskBtn:hover {
+    background-color: #502983;
+}
+
+#addTaskBtn i {
+    color: #fff;
+}
+
+#taskHeading {
+    color: #FFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: #15101C;
+    color: #9E78CF;
+}
+
+
+button i {
+    color: #9e78cf;
+    transition: all 2s;
+}
+
+button:hover i {
+    color: #777;
+}
+
+li button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#doneTitle {
+    color: #fff;
+}
+
+.done {
+    text-decoration: line-through;
+    color: aqua;
+}

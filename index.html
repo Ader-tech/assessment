@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="task">
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button id="addTaskBtn"><i class="fas fa-plus"></i></button>
+        </div>
+       <div>
+        <h2 id="taskHeading"></h2>
+        <ul id="taskList"></ul>
+       </div>
+    </div>
+    <div class="container">
+        <h2 id="doneTitle"></h2>
+        <ul id="doneList"></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
